@@ -387,7 +387,7 @@
 		"outerColor": [7, 0, 54],
 		"innerColor": [228, 134, 228],
 		"uniqueName": "Austronesian Thalassocracy",
-		"uniques": ["[+25]% [Culture] [in capital]","Great General provides double combat bonus","[Great General] is earned [50]% faster", "Starts with [Mining]","Starts with [Mining]", "Starts with [Pottery]", "Double quantity of [Uranium] produced"],
+		"uniques": ["[+25]% [Culture] [in capital]","Great General provides double combat bonus","[Great General] is earned [50]% faster", "Starts with [Mining]", "Starts with [Sailing]", "Starts with [Optics]", "Starts with [Pottery]", "Double quantity of [Uranium] produced"],
 		"cities": ["Blast City","Manila","Sulu","Cebu","Maguindanao","Sarawak","Namayan","Tondo","Mal-I","Madja-As","Butuan","Lanao","Dapitan"]
 	},
 	{
