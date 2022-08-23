@@ -444,7 +444,7 @@
 	{
 		"name": "Order",
 		"era": "Modern era",
-		"uniques": ["Free Social Policy","Unlocks Kremlin","Only available <before adopting [Autocracy]>","Only available <before adopting [Freedom]>"],
+		"uniques": ["Free Social Policy","Unlocks Kremlin"],
 		"policies": [
 			{
 				"name": "Hero of the People",
@@ -489,7 +489,7 @@
 	{
 		"name": "Order II",
 		"era": "Modern era",
-		"uniques": ["Only available <before adopting [Autocracy]>","Only available <before adopting [Freedom]>","Free Social Policy"],
+		"uniques": ["Free Social Policy"],
 		"policies": [
 			{
 				"name": "Young Pioneers",
@@ -538,7 +538,7 @@
 	{
 		"name": "Freedom",
 		"era": "Modern era",
-		"uniques": ["Free Social Policy","Unlocks Statue of Liberty","Only available <before adopting [Autocracy]>","Only available <before adopting [Order]>"],
+		"uniques": ["Free Social Policy","Unlocks Statue of Liberty"],
 		"policies": [
 			{
 				"name": "Avant Garde",
@@ -581,7 +581,7 @@
 	{
 		"name": "Freedom II",
 		"era": "Modern era",
-		"uniques": ["Only available <before adopting [Autocracy]>","Free Social Policy","Only available <before adopting [Order]>"],
+		"uniques": ["Free Social Policy"],
 		"policies": [				
 			{
 				"name": "Capitalism",
@@ -627,7 +627,7 @@
 	{
 		"name": "Autocracy",
 		"era": "Modern era",
-		"uniques": ["Free Social Policy","Unlocks Prora","Only available <before adopting [Order]>","Only available <before adopting [Freedom]>"],
+		"uniques": ["Free Social Policy","Unlocks Prora"],
 		"policies": [
 			{
 				"name": "Elite Forces",
@@ -671,7 +671,7 @@
 		{
 		"name": "Autocracy II",
 		"era": "Modern era",
-		"uniques": ["Free Social Policy","Only available <before adopting [Freedom]>","Only available <before adopting [Order]>"],
+		"uniques": ["Free Social Policy"],
 		"policies": [
 			{
 				"name": "Universal Healthcare",

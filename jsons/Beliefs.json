@@ -426,7 +426,11 @@
         // Note1: its only applicable to follower beliefs not founder beliefs
         // Note2: Changed [Gold] to Gold for Soulinor's suggestion, it works although I am not sure how
         "uniques": [
-            "[1]% Gold from every follower, up to [20]%"
+            "[5]% Gold from every follower, up to [200]%",
+            "[All] Units adjacent to this city heal [+50] HP per turn when healing",
+            "[+5]% [Production] from every follower, up to [50]%",
+            "[+20]% Strength <for [Non-City] units> <when fighting in [Enemy Land] tiles>",
+            "[+20 Food, +10 Production, +20 Gold, +20 Happiness, +20 Faith, +20 Science] from every [Palace]"
         ]
     },
     {
@@ -569,8 +573,11 @@
         "name": "Religious Texts",
         "type": "Enhancer",
         "uniques": [
-            "[+34]% Natural religion spread [in all cities]",
-            "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"
+            "[+50]% Natural religion spread [in all cities]",
+            "[+50]% Natural religion spread [in all cities] <after discovering [Printing Press]>",
+            "[+50]% Spread Religion Strength <for [Great Prophet] units>",
+            "[-50]% Faith cost of generating Great Prophet equivalents",
+            "[+25]% Spread Religion Strength <for [Missionary] units>"
         ]
     },
     {
