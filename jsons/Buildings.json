@@ -3,10 +3,14 @@
 	{
 		"name": "Cathedral",
 		"cost": 0,
-		"faith": 1,
-		"culture": 3,
-		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable"]
+		"faith": 4,
+		"culture": 6,
+        "happiness": 8,
+        "production": 8,
+        "cityStrength": 15,
+        "cityHealth": 75,
+		"specialistSlots": {"Artist": 4},
+		"uniques": ["Unbuildable", "[+20]% [Production] [in this city]"]
 	},
 	{
 		"name": "Mosque",
@@ -16,12 +20,18 @@
 		"happiness": 1,
 		"uniques": ["Unbuildable"]
 	},
-		{
-		"name": "Pagoda",
-		"cost": 0,
-		"culture": 1,
-		"happiness": 1,
-		"uniques": ["Unbuildable","[10]% Food is carried over after population increases [in this city]"]
+	{
+        "name": "Pagoda",
+        "cost": 0,
+        "cityStrength": 15,
+        "cityHealth": 75,
+        "culture": 8,
+        "happiness": 5,
+        "faith":  10,
+        "science":  8,
+        "production":  8,
+        "specialistSlots":  {"Engineer":  4, "Artist":  4},        
+        "uniques": ["Unbuildable","[25]% Food is carried over after population increases [in this city]"]
 	},
 			{
 		"name": "Gurdwara",

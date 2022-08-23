@@ -217,14 +217,14 @@
 	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"science": 8,
+		"science": 24,
 		"uniques": ["Great Improvement","[+2 Science] <after discovering [Scientific Theory]>",
 			"[+2 Science] <after discovering [Atomic Theory]>","Removes removable features when built"]
 	},
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"faith": 6,
+		"faith": 24,
 		"uniques": ["Great Improvement","Removes removable features when built"]
 	},
 	{
@@ -236,7 +236,7 @@
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 6,
+		"production": 24,
 		"food": 1,
 		"uniques": ["Great Improvement","[+3 Production] <after discovering [Chemistry]>","Removes removable features when built"]
 	},
@@ -284,13 +284,17 @@
 	},
 	{
 		"name": "Chateau",
-		"uniqueTo": "France",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert"],
-		"gold": 1,
-		"culture": 2,
-		"science": 2,
-		"turnsToBuild":7,
-		"techRequired": "Chivalry",
+		"uniqueTo": "Brunei",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Hill","Forest","Jungle"],
+		"production": 5,
+		"gold": 5,
+		"culture": 5,
+		"science": 5,
+		"food": 5,
+		"happiness": 5,
+		"faith": 5,
+		"turnsToBuild":4,
+		"techRequired": "Pottery",
 		"uniques": ["Gives a defensive bonus of [50]%","[+2 Gold, +1 Culture] <after discovering [Flight]>"]
 	},
 		{
@@ -387,15 +391,19 @@
 		"uniques": ["Gives a defensive bonus of [50]%","Can only be built on [Coastal] tiles"]
 	},
 		{
-		"name": "Kampong Ayer",
-		"uniqueTo": "Brunei",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"food": 1,
-		"gold": 1,
-		"culture": 1,
-		"techRequired": "Optics",
-		"uniques": ["[+1 Production] <after discovering [Astronomy]>",
-			"[+1 Culture] <after discovering [Flight]>"]
+			"name": "Kampong Ayer",
+			"uniqueTo": "Brunei",
+			"terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
+			"food": 5,
+			"gold": 5,
+			"culture": 4,
+			"science": 4,
+			"production": 6,
+			"faith": 4, 
+			"happiness": 4,
+			"techRequired": "Pottery",
+			"uniques": ["[+1 Production] <after discovering [Astronomy]>",
+				"[+2 Culture] <after discovering [Flight]>"]
 	},
 	{
 		"name": "Terrace farm",

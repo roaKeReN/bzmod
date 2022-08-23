@@ -291,11 +291,11 @@
 		"replaces": "Work Boats",
 		"uniqueTo": "Brunei",
 		"unitType": "Melee Water",
-		"movement": 4,
+		"movement": 10,
 		"strength": 10,
-		"cost": 30,
+		"cost": 1,
 		"requiredTech": "Sailing",
-		"uniques": ["Can construct [Kampong Ayer]","Cannot attack","Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources"]
+		"uniques": ["Can construct [Kampong Ayer]","Cannot attack","May create improvements on water resources"]
 	},
 	{
 		"name": "Trireme",
@@ -1749,6 +1749,18 @@
         "uniques": ["Can carry [2] [Aircraft] units","Cannot attack"]
 	},
 	{
+		"name": "Fleet Carrier",
+		"unitType": "Aircraft Carrier",
+		"replaces": "Carrier",
+		"uniqueTo": "Brunei",
+		"movement": 8,
+		"strength": 120,
+		"rangedStrength": 70,
+		"cost": 420,
+		"requiredTech": "Electronics",
+        "uniques": ["Can carry [8] [Aircraft] units","Cannot attack"]
+	},
+	{
 		"name": "Triplane",
 		"unitType": "Fighter",
 		"movement": 1,
@@ -2198,6 +2210,18 @@
 		"requiredTech": "Advanced Ballistics",
 	},
 	{
+		"name": "Tomahawk",
+		"unitType": "Missile",
+		"replaces": "Guided Missile",
+		"uniqueTo": "Brunei",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 85,
+		"range": 12,
+		"cost": 150,
+		"requiredTech": "Advanced Ballistics",
+	},
+	{
 		"name": "Marine", 
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -2330,6 +2354,21 @@
 		"uniques": ["[100]% chance to intercept air attacks","Can see invisible [Submarine] units","Can carry [2] [Missile] units"]
 	},
 	{
+		"name": "Exocet", 
+		"unitType": "Ranged Water",
+		"replaces": "Missile Cruiser",
+		"uniqueTo": "Brunei",
+		"movement": 10,
+		"strength": 100,
+		"rangedStrength": 125,
+		"range": 5,
+		"interceptRange": 2,
+		"cost": 510,
+		"requiredTech": "Robotics",
+		"promotions": ["Indirect Fire", "Logistics"],
+		"uniques": ["[100]% chance to intercept air attacks","Can see invisible [Submarine] units","Can carry [6] [Missile] units"]
+	},
+	{
 		"name": "Jet Fighter", 
 		"unitType": "Fighter",
 		"movement": 2,
@@ -2343,6 +2382,21 @@
 		"promotions": ["Air Recon"]
 	},
 	{
+		"name": "Raptor", 
+		"unitType": "Fighter",
+		"replaces": "Jet Fighter",
+		"uniqueTo": "Brunei",
+		"movement": 2,
+		"strength": 65,
+		"rangedStrength": 95,
+		"range": 12,
+		"interceptRange": 12,
+		"cost": 540,
+		"requiredTech": "Lasers",
+		"uniques": ["[+150]% Strength <vs [Helicopter] units>","[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>","Consumes [1] [Aluminum]"],
+		"promotions": ["Air Recon","Interception I", "Interception II",  "Air Repair", "Sortie"]
+	},
+	{
 		"name": "Stealth Bomber", 
 		"unitType": "Bomber",
 		"movement": 2,
@@ -2354,6 +2408,34 @@
 		"promotions": ["Evasion"],
 		"uniques": ["Consumes [1] [Aluminum]"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Raider", 		
+		"unitType": "Bomber",
+		"replaces": "Stealth Bomber",
+		"uniqueTo": "Brunei",
+		"movement": 2,
+		"strength": 85,
+		"rangedStrength": 85,
+		"range": 34,
+		"cost": 320,
+		"requiredTech": "Stealth",
+		"promotions": ["Siege I","Siege II","Siege III","Evasion", "Logistics"],		
+		"attackSound": "shot"
+	},
+	{
+		"name": "Copperhead",
+		"unitType": "Siege",
+		"replaces": "Rocket Artillery",
+		"uniqueTo": "Brunei",
+		"movement": 4,
+		"strength": 60,
+		"rangedStrength": 75,
+		"range": 6,
+		"cost": 510,
+		"requiredTech": "Pottery",
+		"promotions": ["March", "Logistics"],
+		"uniques": ["[+200]% Strength <vs cities>", "[+4] Sight","Ranged attacks may be performed over obstacles"]
 	},
 	{
 		"name": "Giant Death Robot", 
