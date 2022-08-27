@@ -292,7 +292,7 @@
 	{
 		"name": "Chateau",
 		"uniqueTo": "Brunei",
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Hill","Forest","Jungle", "Oasis"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Hill","Forest","Jungle", "Oasis", " Snow"],
 		"production": 5,
 		"gold": 5,
 		"culture": 5,
